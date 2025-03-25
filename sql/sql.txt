@@ -35,6 +35,16 @@ tblproperties ("parquet.compression"="snappy")
 ;
 
 
+#!/bin/bash
+
+python import/xxx.py -d dev_realtime_v1_guoqiang_zhang -t order_info
+python import/xxx.py -d dev_realtime_v1_guoqiang_zhang -t activity_info
+python import/xxx.py -d dev_realtime_v1_guoqiang_zhang -t activity_order
+python import/xxx.py -d dev_realtime_v1_guoqiang_zhang -t activity_rule
+python import/xxx.py -d dev_realtime_v1_guoqiang_zhang -t activity_sku
+python import/xxx.py -d dev_realtime_v1_guoqiang_zhang -t base_category1
+python import/xxx.py -d dev_realtime_v1_guoqiang_zhang -t base_category2
+python import/xxx.py -d dev_realtime_v1_guoqiang_zhang -t base_category3
 
 
 
